@@ -11,14 +11,7 @@
 	</supportedVersions>
 	<description>
 	[HRK] Gun Nut - CORE
-	</description>
-	<modDependencies>
-		<li>
-			<packageId>Harkon.GunNut.CORE</packageId>
-			<displayName>[HRK] Gun Nut - CORE</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2614317714</steamWorkshopUrl>
-		</li>
-	</modDependencies>
+	</description>	
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
