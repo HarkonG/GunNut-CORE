@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Configuration>
   <Excluded>
-    <exclude>C:\Games\Steam\steamapps\common\RimWorld\Mods\GunNut-CORE\.git</exclude>
-    <exclude>C:\Games\Steam\steamapps\common\RimWorld\Mods\GunNut-CORE\README.md</exclude>
+    <exclude>D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\GunNut-CORE\.git</exclude>
+    <exclude>D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\GunNut-CORE\README.md</exclude>
   </Excluded>
 </Configuration>
