@@ -2,7 +2,7 @@
 <Defs>
     <ResearchProjectDef>
         <defName>HRK_Research_GunNut</defName>
-        <label>Attachments and modifications</label>
+        <label>attachments and modifications</label>
         <description>Modify the weapons you already know to make them more comfortable, light and precise.</description>
         <baseCost>2200</baseCost>
         <prerequisites>
@@ -12,5 +12,6 @@
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <researchViewX>9.00</researchViewX>
         <researchViewY>4.60</researchViewY>
+        <tab>HRK_ResearchTab_GunNut</tab>
     </ResearchProjectDef>
 </Defs>
