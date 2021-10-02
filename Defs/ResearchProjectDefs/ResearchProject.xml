@@ -10,8 +10,8 @@
         </prerequisites>
         <techLevel>Industrial</techLevel>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <researchViewX>9.00</researchViewX>
-        <researchViewY>4.60</researchViewY>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>0.15</researchViewY>
         <tab>HRK_ResearchTab_GunNut</tab>
     </ResearchProjectDef>
 </Defs>
