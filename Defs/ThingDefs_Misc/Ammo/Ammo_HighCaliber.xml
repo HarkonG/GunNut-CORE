@@ -36,4 +36,21 @@
         </projectile>
     </ThingDef>
 
+    <!-- ========== .338 Lapua Magnum ========== -->
+    <ThingDef ParentName="BaseBullet">
+        <defName>HRK_Bullet_338LapuaMagnum</defName>
+        <label>.338 Lapua Magnum bullet</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_VeryBig</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>49</damageAmountBase>
+            <stoppingPower>2.5</stoppingPower>
+            <armorPenetrationBase>0.8</armorPenetrationBase>
+            <speed>75</speed>
+        </projectile>
+    </ThingDef>
+
 </Defs>
