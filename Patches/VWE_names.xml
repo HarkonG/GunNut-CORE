@@ -19,14 +19,7 @@
                     <value>
                         <label>SVD</label>
                     </value>
-                </li>
-
-                <li Class="PatchOperationReplace">
-                    <xpath>/Defs/ThingDef[defName="VWE_Gun_MarksmanRifle"]/label</xpath>
-                    <value>
-                        <label>SVD</label>
-                    </value>
-                </li>
+                </li>                
 
                 <li Class="PatchOperationReplace">
                     <xpath>/Defs/ThingDef[defName="VWE_Gun_ChargeSMG"]/label</xpath>

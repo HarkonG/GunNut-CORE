@@ -10,7 +10,7 @@
     </value>
   </Operation>
 
-	<!-- ========== Pistol ========== -->
+  <!-- ========== Pistol ========== -->
 
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="Gun_Autopistol"]/label</xpath>
@@ -19,7 +19,7 @@
     </value>
   </Operation>
 
-	<!-- ========== Pump Shotgun ========== -->
+  <!-- ========== Pump Shotgun ========== -->
 
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="Gun_PumpShotgun"]/label</xpath>
@@ -28,7 +28,7 @@
     </value>
   </Operation>
 
-	<!-- ========== Chain Shotgun ========== -->
+  <!-- ========== Chain Shotgun ========== -->
 
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="Gun_ChainShotgun"]/label</xpath>
@@ -37,7 +37,7 @@
     </value>
   </Operation>
 
-	<!-- ========== Bolt-action rifle ========== -->
+  <!-- ========== Bolt-action rifle ========== -->
 
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="Gun_BoltActionRifle"]/label</xpath>
@@ -46,16 +46,16 @@
     </value>
   </Operation>
 
-	<!-- ========== Assault rifle ========== -->
+  <!-- ========== Assault rifle ========== -->
 
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="Gun_AssaultRifle"]/label</xpath>
     <value>
-      <label>Colt Canada C7</label>
+      <label>Colt C7</label>
     </value>
   </Operation>
 
-	<!-- ========== Sniper rifle ========== -->
+  <!-- ========== Sniper rifle ========== -->
 
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="Gun_SniperRifle"]/label</xpath>
@@ -64,7 +64,7 @@
     </value>
   </Operation>
 
-	<!-- ========== Machine pistol ========== -->
+  <!-- ========== Machine pistol ========== -->
 
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="Gun_MachinePistol"]/label</xpath>
@@ -73,7 +73,25 @@
     </value>
   </Operation>
 
-	<!-- ========== Heavy SMG ========== -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Gun_MachinePistol"]/label</xpath>
+        <value>
+          <label>Tec-9</label>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace" MayRequire="CETeam.CombatExtended">
+        <xpath>/Defs/ThingDef[defName="Gun_MachinePistol"]/label</xpath>
+        <value>
+          <label>MAC-10</label>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- ========== Heavy SMG ========== -->
 
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="Gun_HeavySMG"]/label</xpath>
@@ -82,7 +100,7 @@
     </value>
   </Operation>
 
-	<!-- ========== Incendiary launcher ========== -->
+  <!-- ========== Incendiary launcher ========== -->
 
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="Gun_IncendiaryLauncher"]/label</xpath>
@@ -91,7 +109,7 @@
     </value>
   </Operation>
 
-	<!-- ========== LMG ========== -->
+  <!-- ========== LMG ========== -->
 
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="Gun_LMG"]/label</xpath>
@@ -100,7 +118,7 @@
     </value>
   </Operation>
 
-	<!-- ========== Charge rifle ========== -->
+  <!-- ========== Charge rifle ========== -->
 
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="Gun_ChargeRifle"]/label</xpath>
