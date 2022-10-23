@@ -1,36 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-    <Operation Class="XmlExtensions.OptionalPatch">
-        <modId>Harkon.GunNut.CORE</modId>
-        <key>toggleCORENames</key>
-        <!--By default, apply the patch-->
-        <defaultValue>true</defaultValue>
-        <caseTrue>
-            <Operation Class="PatchOperationFindMod">
-                <mods>
-                    <li>Vanilla Weapons Expanded</li>
-                </mods>
-                <match Class="PatchOperationSequence">
-                    <operations>
-                        <li Class="PatchOperationReplace">
-                            <xpath>/Defs/ResearchProjectDef[defName="HRK_Research_GunNut"]/baseCost</xpath>
-                            <value>
-                                <baseCost>2800</baseCost>
-                            </value>
-                        </li>
-                        <li Class="PatchOperationReplace">
-                            <xpath>/Defs/ResearchProjectDef[defName="HRK_Research_GunNut"]/prerequisites</xpath>
-                            <value>
-                                <prerequisites>
-                                    <li>VWE_SpecializedFirearms</li>
-                                    <li>VWE_DesignatedMarksmanRifle</li>
-                                    <li>VWE_HeavyWeapons</li>
-                                </prerequisites>
-                            </value>
-                        </li>
-                    </operations>
-                </match>
-            </Operation>
-        </caseTrue>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Weapons Expanded</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>               
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="HRK_Research_GunNut"]/prerequisites</xpath>
+                    <value>
+                        <prerequisites>
+                            <li>VWE_SpecializedFirearms</li>
+                            <li>VWE_DesignatedMarksmanRifle</li>
+                            <li>VWE_HeavyWeapons</li>
+                        </prerequisites>
+                    </value>
+                </li>
+            </operations>
+        </match>
     </Operation>
+
 </Patch>
