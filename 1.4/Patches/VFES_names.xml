@@ -2,7 +2,7 @@
 <Patch>
     <Operation Class="XmlExtensions.OptionalPatch">
         <modId>Harkon.GunNut.CORE</modId>
-        <key>toggleCORENames</key>
+        <key>toggleVFESNames</key>
         <!--By default, apply the patch-->
         <defaultValue>true</defaultValue>
         <caseTrue>

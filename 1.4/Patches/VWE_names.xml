@@ -41,17 +41,6 @@
                             </value>
                         </li>
 
-                        <!--<li Class="PatchOperationRemove">
-                    <xpath>/Defs/ThingDef[defName="VWE_Gun_GrenadeLauncher"or 
-                    defName ="VWE_Gun_Flamethrower" or                    
-                    defName = "VWE_Gun_HMG" or
-                    defName = "VWE_Gun_ServiceRifle" or
-                    defName = "VWE_Gun_MarksmanRifle" or                    
-                    defName = "VWE_Gun_ChargeSMG" or
-                    defName = "VWE_Gun_ChargeSniperRifle"]
-                    </xpath>
-                </li>-->
-
                         <li Class="PatchOperationReplace">
                             <xpath>/Defs/ThingDef[defName="VWE_Gun_ChargeShotgun"]/label</xpath>
                             <value>
