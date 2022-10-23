@@ -12,11 +12,23 @@
                 <font>Medium</font>
                 <anchor>Middle</anchor>
             </li>
+
+            <!-- ========== REALISTIC FIREARM LABELS ========== -->
+
             <li Class="XmlExtensions.Setting.GapLine"/>
             <li Class="XmlExtensions.Setting.Text">
-                <text>REALISTIC FIREARM LABELS</text>
+                <text>REALISTIC NAMES</text>
                 <anchor>Middle</anchor>
             </li>
+
+            <li Class="XmlExtensions.Setting.Gap"/>
+
+            <li Class="XmlExtensions.Setting.Text">
+                <text>Changes names of firearms in these mods to the real counterpart to fit better with other Gun Nut mods (Assault Rifle -> M16A3).</text>
+                <font>Tiny</font>
+            </li>
+
+            <li Class="XmlExtensions.Setting.Gap"/>
 
             <li Class="XmlExtensions.Setting.Checkbox">
                 <key>toggleCORENames</key>
@@ -54,20 +66,114 @@
                 <defaultValue>true</defaultValue>
             </li>
 
+            <!-- ========== RESEARCH SETTINGS ========== -->
+
+            <li Class="XmlExtensions.Setting.GapLine"/>
+            <li Class="XmlExtensions.Setting.Text">
+                <text>RESEARCH SETTINGS</text>
+                <anchor>Middle</anchor>
+                <tooltip>Depending of the mods you have you may want to tweak these values or put them to 0 if you dont have a gun in the category. Sorry no better way to do this at this moment.</tooltip>
+            </li>
+
+            <li Class="XmlExtensions.Setting.Gap"/>
+
+            <li Class="XmlExtensions.Setting.Text">
+                <text>Depending of the mods you have you may want to tweak these values or put them to 0 if you dont have a gun in the category. Sorry no better way to do this at this moment.</text>
+                <font>Tiny</font>
+            </li>
+
+            <li Class="XmlExtensions.Setting.Gap"/>
+
+            <li Class="XmlExtensions.Setting.Textbox">
+                <key>GunNutResearchCost</key>
+                <label>Attachments and modifications</label>
+                <defaultValue>250</defaultValue>
+            </li>
+
+            <li Class="XmlExtensions.Setting.Textbox">
+                <key>HandgunsCost</key>
+                <label>Advanced handguns cost</label>
+                <defaultValue>500</defaultValue>
+            </li>
+
+            <li Class="XmlExtensions.Setting.Textbox">
+                <key>SMGsCost</key>
+                <label>Advanced SMGs cost</label>
+                <defaultValue>800</defaultValue>
+            </li>
+
+            <li Class="XmlExtensions.Setting.Textbox">
+                <key>ShotgunsCost</key>
+                <label>Advanced Shotguns cost</label>
+                <defaultValue>800</defaultValue>
+            </li>
+
+            <li Class="XmlExtensions.Setting.Textbox">
+                <key>DMRsCost</key>
+                <label>Advanced DMRs cost</label>
+                <defaultValue>800</defaultValue>
+            </li>
+
+            <li Class="XmlExtensions.Setting.Textbox">
+                <key>ARsCost</key>
+                <label>Advanced ARs cost</label>
+                <defaultValue>1200</defaultValue>
+            </li>
+
+            <li Class="XmlExtensions.Setting.Textbox">
+                <key>SRsCost</key>
+                <label>Advanced SRs cost</label>
+                <defaultValue>1000</defaultValue>
+            </li>
+
+            <li Class="XmlExtensions.Setting.Textbox">
+                <key>AMRsCost</key>
+                <label>Advanced AMRs cost</label>
+                <defaultValue>1500</defaultValue>
+            </li>
+
+            <li Class="XmlExtensions.Setting.Textbox">
+                <key>LMGsCost</key>
+                <label>Advanced LMGs cost</label>
+                <defaultValue>1200</defaultValue>
+            </li>
+
+            <li Class="XmlExtensions.Setting.Textbox">
+                <key>HMGsCost</key>
+                <label>Advanced HMGs cost</label>
+                <defaultValue>1500</defaultValue>
+            </li>
+
+            <li Class="XmlExtensions.Setting.Textbox">
+                <key>LaunchersCost</key>
+                <label>Advanced Launchers cost</label>
+                <defaultValue>1500</defaultValue>
+            </li>
+
+            <!-- ========== MISC SETTINGS ========== -->
+
             <li Class="XmlExtensions.Setting.GapLine"/>
             <li Class="XmlExtensions.Setting.Text">
                 <text>MISC SETTINGS</text>
                 <anchor>Middle</anchor>
             </li>
+            <li Class="XmlExtensions.Setting.Gap"/>
 
             <li Class="XmlExtensions.Setting.Checkbox">
                 <key>replaceCoreBombSound</key>
                 <label>Use new "bomb" explosion sound</label>
                 <defaultValue>false</defaultValue>
+                <tooltip>Replaces the vanilla bomb explosion sound with the one used by Gun Nut guns.</tooltip>
             </li>
 
+            <li Class="XmlExtensions.Setting.GapLine"/>
+            <li Class="XmlExtensions.Setting.Text">
+                <text>Remember any change of the settings needs a restart to take effect.</text>
+                <font>Tiny</font>
+            </li>
             <li Class="XmlExtensions.Setting.Gap"/>
             <li Class="XmlExtensions.Setting.ResetSettings"/>
+            <li Class="XmlExtensions.Setting.Gap"/>
 
         </settings>
     </XmlExtensions.SettingsMenuDef>

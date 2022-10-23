@@ -95,7 +95,7 @@
         <defName>HRK_Research_Sniper</defName>
         <label>advanced SR</label>
         <description>Precise bolt-action rifles excel at long distances paired with high firepower and anti-armor capabilities; these slow firing weapons are best used to harass and take off enemies from far away.</description>
-        <baseCost>1200</baseCost>
+        <baseCost>1000</baseCost>
         <prerequisites>
             <li>HRK_Research_GunNut</li>
         </prerequisites>
