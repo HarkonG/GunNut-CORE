@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <Defs>
     <SoundDef>
         <defName>HRK_SFX_Bomb</defName>
         <context>MapOnly</context>
-        <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_SFX_Bomb</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>HRK_SFX_Bomb</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
