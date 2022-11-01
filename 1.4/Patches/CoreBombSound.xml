@@ -3,7 +3,7 @@
     <Operation Class="XmlExtensions.OptionalPatch">
         <modId>Harkon.GunNut.CORE</modId>
         <key>replaceCoreBombSound</key>        
-        <defaultValue>false</defaultValue>
+        <defaultValue>true</defaultValue>
         <caseTrue>
             <Operation Class="PatchOperationReplace">
                 <xpath>/Defs/DamageDef[defName="Bomb"]/soundExplosion</xpath>

@@ -66,6 +66,52 @@
                 <defaultValue>true</defaultValue>
             </li>
 
+            <!-- ========== SOUND SETTINGS ========== -->
+
+            <li Class="XmlExtensions.Setting.GapLine"/>
+            <li Class="XmlExtensions.Setting.Text">
+                <text>SOUND SETTINGS</text>
+                <anchor>Middle</anchor>
+            </li>
+            <li Class="XmlExtensions.Setting.Gap"/>
+
+            <li Class="XmlExtensions.Setting.Checkbox">
+                <key>replaceShotSound</key>
+                <label>Use new "shot" sounds</label>
+                <defaultValue>true</defaultValue>
+                <tooltip>Replaces the vanilla firing sounds with more realistic ones.</tooltip>
+            </li>
+
+            <li Class="XmlExtensions.Setting.Checkbox">
+                <key>replaceInteractSound</key>
+                <label>Use new "interact / reload (CE)" sounds</label>
+                <defaultValue>true</defaultValue>
+                <tooltip>Replaces the vanilla interact or reload (only with CE) sounds with more realistic ones.</tooltip>
+            </li>
+
+            <li Class="XmlExtensions.Setting.Checkbox">
+                <key>replaceCoreBombSound</key>
+                <label>Use new "bomb" explosion sound</label>
+                <defaultValue>true</defaultValue>
+                <tooltip>Replaces the vanilla bomb explosion sound with the one used by Gun Nut guns.</tooltip>
+            </li>
+
+            <!-- ========== TEXTURE SETTINGS ========== -->
+
+            <li Class="XmlExtensions.Setting.GapLine"/>
+            <li Class="XmlExtensions.Setting.Text">
+                <text>TEXTURE SETTINGS</text>
+                <anchor>Middle</anchor>
+            </li>
+            <li Class="XmlExtensions.Setting.Gap"/>
+
+            <!--<li Class="XmlExtensions.Setting.Checkbox">
+                <key>replaceShotSound</key>
+                <label>Use new "shot" sounds</label>
+                <defaultValue>true</defaultValue>
+                <tooltip>Replaces the vanilla firing sounds with more realistic ones.</tooltip>
+            </li>-->
+
             <!-- ========== RESEARCH SETTINGS ========== -->
 
             <li Class="XmlExtensions.Setting.GapLine"/>
@@ -148,22 +194,6 @@
                 <key>LaunchersCost</key>
                 <label>Advanced Launchers cost</label>
                 <defaultValue>1500</defaultValue>
-            </li>
-
-            <!-- ========== MISC SETTINGS ========== -->
-
-            <li Class="XmlExtensions.Setting.GapLine"/>
-            <li Class="XmlExtensions.Setting.Text">
-                <text>MISC SETTINGS</text>
-                <anchor>Middle</anchor>
-            </li>
-            <li Class="XmlExtensions.Setting.Gap"/>
-
-            <li Class="XmlExtensions.Setting.Checkbox">
-                <key>replaceCoreBombSound</key>
-                <label>Use new "bomb" explosion sound</label>
-                <defaultValue>false</defaultValue>
-                <tooltip>Replaces the vanilla bomb explosion sound with the one used by Gun Nut guns.</tooltip>
             </li>
 
             <li Class="XmlExtensions.Setting.GapLine"/>
