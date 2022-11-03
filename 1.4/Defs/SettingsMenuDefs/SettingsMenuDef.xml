@@ -131,8 +131,7 @@
             <li Class="XmlExtensions.Setting.Gap"/>
 
             <li Class="XmlExtensions.Setting.Text">
-                <text>WORK IN PROGRESS, settings for replacers will be added at a later date.</text>
-                <font>MEDIUM</font>
+                <text>WORK IN PROGRESS, settings for replacers will be added at a later date.</text>                
             </li>
 
             <!-- ========== RESEARCH SETTINGS ========== -->
