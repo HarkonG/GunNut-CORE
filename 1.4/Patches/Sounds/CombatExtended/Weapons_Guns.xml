@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="XmlExtensions.OptionalPatch">
+    <modId>Harkon.GunNut.CORE</modId>
+    <key>replaceCEWeaponSound</key>
+    <defaultValue>true</defaultValue>
+    <caseTrue>
+
+      <!-- === M79 === -->
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="CE_GrenadeLauncher"]/verbs/li/soundCast</xpath>
+
+        <value>
+          <soundCast>Shot_CEG_Milkor</soundCast>
+        </value>
+      </li>
+
+      <!-- === M72 LAW === -->
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="CE_DisposableRocketLauncher"]/verbs/li/soundCast</xpath>
+
+        <value>
+          <soundCast>Shot_CEG_M72LAW</soundCast>
+        </value>
+      </li>
+
+    </caseTrue>
+  </Operation>
+
+</Patch>
