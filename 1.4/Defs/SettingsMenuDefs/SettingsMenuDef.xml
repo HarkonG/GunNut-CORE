@@ -124,7 +124,7 @@
 
             <!-- ========== RESEARCH SETTINGS ========== -->
 
-            <li Class="XmlExtensions.Setting.GapLine"/>
+            <!--<li Class="XmlExtensions.Setting.GapLine"/>
             <li Class="XmlExtensions.Setting.Text">
                 <text>RESEARCH SETTINGS</text>
                 <anchor>Middle</anchor>
@@ -204,6 +204,19 @@
                 <key>LaunchersCost</key>
                 <label>Advanced Launchers cost</label>
                 <defaultValue>1500</defaultValue>
+            </li>-->
+
+            <li Class="XmlExtensions.Setting.Gap"/>
+
+            <li Class="XmlExtensions.Setting.Text">
+                <text>For people that are using this mod on its own and no other gun nut mods.</text>
+                <font>Tiny</font>
+            </li>
+            <li Class="XmlExtensions.Setting.Checkbox">
+                <key>removeAllTheResearch</key>
+                <label>REMOVE ALL THE RESEARCH (ONLY TOGGLE IF YOU DONT HAVE ANY GUN NUT MOD)</label>
+                <defaultValue>false</defaultValue>
+                <tooltip>ONLY TOGGLE IF YOU DONT HAVE ANY GUN NUT MOD, YOU WILL GET ERRORS IF THERE IS GUNS PRESENT ON ANY OF THE GUN NUT PROJECTS</tooltip>
             </li>
 
             <li Class="XmlExtensions.Setting.GapLine"/>

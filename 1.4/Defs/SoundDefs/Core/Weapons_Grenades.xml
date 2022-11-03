@@ -3,9 +3,9 @@
 
   <!-- === Interact Grenade === -->
   <SoundDef>
-    <defName>Interact_GSP_Grenade</defName>  
-    <context>MapOnly</context>   
-    <maxSimultaneous>1</maxSimultaneous>  
+    <defName>Interact_GSP_Grenade</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
@@ -20,9 +20,9 @@
 
   <!-- === Throw Grenade === -->
   <SoundDef>
-    <defName>Throw_GSP_Grenade</defName>  
-    <context>MapOnly</context>   
-    <maxSimultaneous>1</maxSimultaneous>  
+    <defName>Throw_GSP_Grenade</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
