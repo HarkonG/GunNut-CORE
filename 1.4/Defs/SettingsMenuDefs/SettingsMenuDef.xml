@@ -73,27 +73,44 @@
                 <text>SOUND SETTINGS</text>
                 <anchor>Middle</anchor>
             </li>
+
+            <li Class="XmlExtensions.Setting.Gap"/>
+
+            <li Class="XmlExtensions.Setting.Text">
+                <text>Replace the sounds of real firearms with more realistic and unique ones.</text>
+                <font>Tiny</font>
+            </li>
+
             <li Class="XmlExtensions.Setting.Gap"/>
 
             <li Class="XmlExtensions.Setting.Checkbox">
-                <key>replaceShotSound</key>
-                <label>Use new "shot" sounds</label>
+                <key>replaceCoreGrenadeSound</key>
+                <label>Grenade sounds</label>
                 <defaultValue>true</defaultValue>
-                <tooltip>Replaces the vanilla firing sounds with more realistic ones.</tooltip>
             </li>
 
             <li Class="XmlExtensions.Setting.Checkbox">
-                <key>replaceInteractSound</key>
-                <label>Use new "interact / reload (CE)" sounds</label>
+                <key>replaceCoreWeaponSound</key>
+                <label>Vanilla weapons</label>
                 <defaultValue>true</defaultValue>
-                <tooltip>Replaces the vanilla interact or reload (only with CE) sounds with more realistic ones.</tooltip>
             </li>
 
             <li Class="XmlExtensions.Setting.Checkbox">
-                <key>replaceCoreBombSound</key>
-                <label>Use new "bomb" explosion sound</label>
+                <key>replaceVWEWeaponSound</key>
+                <label>Vanilla expanded weapons</label>
                 <defaultValue>true</defaultValue>
-                <tooltip>Replaces the vanilla bomb explosion sound with the one used by Gun Nut guns.</tooltip>
+            </li>
+
+            <li Class="XmlExtensions.Setting.Checkbox">
+                <key>replaceCEWeaponSound</key>
+                <label>Combat Extended</label>
+                <defaultValue>true</defaultValue>
+            </li>
+
+            <li Class="XmlExtensions.Setting.Checkbox">
+                <key>replaceCEGunsWeaponSound</key>
+                <label>Combat extended guns</label>
+                <defaultValue>true</defaultValue>
             </li>
 
             <!-- ========== TEXTURE SETTINGS ========== -->
@@ -104,13 +121,6 @@
                 <anchor>Middle</anchor>
             </li>
             <li Class="XmlExtensions.Setting.Gap"/>
-
-            <!--<li Class="XmlExtensions.Setting.Checkbox">
-                <key>replaceShotSound</key>
-                <label>Use new "shot" sounds</label>
-                <defaultValue>true</defaultValue>
-                <tooltip>Replaces the vanilla firing sounds with more realistic ones.</tooltip>
-            </li>-->
 
             <!-- ========== RESEARCH SETTINGS ========== -->
 

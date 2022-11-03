@@ -7,23 +7,41 @@
     <defaultValue>true</defaultValue>
     <caseTrue>
 
-      <!-- === M79 === -->
-      <li Class="PatchOperationReplace">
-        <xpath>/Defs/ThingDef[defName="CE_GrenadeLauncher"]/verbs/li/soundCast</xpath>
+      <Operation Class="PatchOperationFindMod">
+        <mods>
+          <li>Combat Extended</li>
+        </mods>
+        <match Class="PatchOperationSequence">
 
-        <value>
-          <soundCast>Shot_CEG_Milkor</soundCast>
-        </value>
-      </li>
+          <!-- === M79 === -->
+          <li Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="CE_GrenadeLauncher"]/verbs/li/soundCast</xpath>
 
-      <!-- === M72 LAW === -->
-      <li Class="PatchOperationReplace">
-        <xpath>/Defs/ThingDef[defName="CE_DisposableRocketLauncher"]/verbs/li/soundCast</xpath>
+            <value>
+              <soundCast>Shot_CEG_Milkor</soundCast>
+            </value>
+          </li>
 
-        <value>
-          <soundCast>Shot_CEG_M72LAW</soundCast>
-        </value>
-      </li>
+          <!-- === M72 LAW === -->
+          <li Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="CE_DisposableRocketLauncher"]/verbs/li/soundCast</xpath>
+
+            <value>
+              <soundCast>Shot_CEG_M72LAW</soundCast>
+            </value>
+          </li>
+
+          <!-- === M240B / KPV === -->
+          <li Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[@Name="BaseTurretGun"]/soundInteract</xpath>
+
+            <value>
+              <soundInteract>Interact_CE_Turrets</soundInteract>
+            </value>
+          </li>
+
+        </match>
+      </Operation>
 
     </caseTrue>
   </Operation>
