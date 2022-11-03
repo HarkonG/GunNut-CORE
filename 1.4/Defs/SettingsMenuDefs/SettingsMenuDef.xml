@@ -32,13 +32,13 @@
 
             <li Class="XmlExtensions.Setting.Checkbox">
                 <key>toggleCORENames</key>
-                <label>Vanilla firearms</label>
+                <label>Vanilla</label>
                 <defaultValue>true</defaultValue>
             </li>
 
             <li Class="XmlExtensions.Setting.Checkbox">
                 <key>toggleCENames</key>
-                <label>Combat Extended</label>
+                <label>Combat Extended (disabled until CE 1.4 release)</label>
                 <defaultValue>true</defaultValue>
             </li>
 
@@ -85,31 +85,31 @@
 
             <li Class="XmlExtensions.Setting.Checkbox">
                 <key>replaceCoreGrenadeSound</key>
-                <label>Grenade sounds</label>
+                <label>Grenades</label>
                 <defaultValue>true</defaultValue>
             </li>
 
             <li Class="XmlExtensions.Setting.Checkbox">
                 <key>replaceCoreWeaponSound</key>
-                <label>Vanilla weapons</label>
+                <label>Vanilla</label>
                 <defaultValue>true</defaultValue>
             </li>
 
             <li Class="XmlExtensions.Setting.Checkbox">
                 <key>replaceVWEWeaponSound</key>
-                <label>Vanilla expanded weapons</label>
+                <label>Vanilla Expanded</label>
                 <defaultValue>true</defaultValue>
             </li>
 
             <li Class="XmlExtensions.Setting.Checkbox">
                 <key>replaceCEWeaponSound</key>
-                <label>Combat Extended</label>
+                <label>Combat Extended (disabled until CE 1.4 release)</label>
                 <defaultValue>true</defaultValue>
             </li>
 
             <li Class="XmlExtensions.Setting.Checkbox">
                 <key>replaceCEGunsWeaponSound</key>
-                <label>Combat extended guns</label>
+                <label>Combat Extended Guns (disabled until CE 1.4 release)</label>
                 <defaultValue>true</defaultValue>
             </li>
 
@@ -120,15 +120,27 @@
                 <text>TEXTURE SETTINGS</text>
                 <anchor>Middle</anchor>
             </li>
+
             <li Class="XmlExtensions.Setting.Gap"/>
+
+            <li Class="XmlExtensions.Setting.Text">
+                <text>Replace the textures of other mods to make them fit more with gun nut.</text>
+                <font>Tiny</font>
+            </li>
+
+            <li Class="XmlExtensions.Setting.Gap"/>
+
+            <li Class="XmlExtensions.Setting.Text">
+                <text>WORK IN PROGRESS, settings for replacers will be added at a later date.</text>
+                <font>MEDIUM</font>
+            </li>
 
             <!-- ========== RESEARCH SETTINGS ========== -->
 
-            <!--<li Class="XmlExtensions.Setting.GapLine"/>
+            <li Class="XmlExtensions.Setting.GapLine"/>
             <li Class="XmlExtensions.Setting.Text">
                 <text>RESEARCH SETTINGS</text>
                 <anchor>Middle</anchor>
-                <tooltip>Depending of the mods you have you may want to tweak these values or put them to 0 if you dont have a gun in the category. Sorry no better way to do this at this moment.</tooltip>
             </li>
 
             <li Class="XmlExtensions.Setting.Gap"/>
@@ -142,11 +154,11 @@
 
             <li Class="XmlExtensions.Setting.Textbox">
                 <key>GunNutResearchCost</key>
-                <label>Attachments and modifications</label>
-                <defaultValue>250</defaultValue>
+                <label>Attachments and modifications cost</label>
+                <defaultValue>1250</defaultValue>
             </li>
 
-            <li Class="XmlExtensions.Setting.Textbox">
+            <!--<li Class="XmlExtensions.Setting.Textbox">
                 <key>HandgunsCost</key>
                 <label>Advanced handguns cost</label>
                 <defaultValue>500</defaultValue>
@@ -205,19 +217,6 @@
                 <label>Advanced Launchers cost</label>
                 <defaultValue>1500</defaultValue>
             </li>-->
-
-            <li Class="XmlExtensions.Setting.Gap"/>
-
-            <li Class="XmlExtensions.Setting.Text">
-                <text>For people that are using this mod on its own and no other gun nut mods.</text>
-                <font>Tiny</font>
-            </li>
-            <li Class="XmlExtensions.Setting.Checkbox">
-                <key>removeAllTheResearch</key>
-                <label>REMOVE ALL THE RESEARCH (ONLY TOGGLE IF YOU DONT HAVE ANY GUN NUT MOD)</label>
-                <defaultValue>false</defaultValue>
-                <tooltip>ONLY TOGGLE IF YOU DONT HAVE ANY GUN NUT MOD, YOU WILL GET ERRORS IF THERE IS GUNS PRESENT ON ANY OF THE GUN NUT PROJECTS</tooltip>
-            </li>
 
             <li Class="XmlExtensions.Setting.GapLine"/>
             <li Class="XmlExtensions.Setting.Text">
