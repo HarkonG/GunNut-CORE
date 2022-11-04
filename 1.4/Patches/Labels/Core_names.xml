@@ -120,6 +120,14 @@
         </value>
       </Operation>
 
+      <!-- ========== Charged SCAR ========== -->
+      <Operation Class="PatchOperationReplace" MayRequire="Harkon.GunNut.FNSCAR">
+        <xpath>/Defs/ThingDef[defName="HRK_Charged_SCAR"]/label</xpath>
+        <value>
+          <label>C-16 charge battle rifle</label>
+        </value>
+      </Operation>
+
     </caseTrue>
   </Operation>
 </Patch>
