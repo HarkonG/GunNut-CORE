@@ -121,11 +121,16 @@
       </Operation>
 
       <!-- ========== Charged SCAR ========== -->
-      <Operation Class="PatchOperationReplace" MayRequire="Harkon.GunNut.FNSCAR">
-        <xpath>/Defs/ThingDef[defName="HRK_Charged_SCAR"]/label</xpath>
-        <value>
-          <label>C-16 charge battle rifle</label>
-        </value>
+      <Operation Class="PatchOperationFindMod">
+        <mods>
+          <li>[HRK] Gun Nut - FN SCAR</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="HRK_Charged_SCAR"]/label</xpath>
+          <value>
+            <label>C-16 charge battle rifle</label>
+          </value>
+        </match >
       </Operation>
 
     </caseTrue>
