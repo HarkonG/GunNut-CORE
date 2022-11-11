@@ -27,6 +27,10 @@
 		<li>VanillaExpanded.VWE</li>
 		<li>Samael.PCA</li>
 		<li>al9000.ceadvancedindustrial</li>
+		<li>Kriptoner.EX1</li>
+		<li>CE.Kirp.RUGuns</li>
+		<li>CETeam.CombatExtendedGuns</li>
+		<li>al9000.CEGunsButAK</li>
 	</loadAfter>
 	<modDependencies>
 		<li>
