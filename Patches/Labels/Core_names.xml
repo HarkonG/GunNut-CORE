@@ -63,13 +63,6 @@
       </Operation>
 
       <!-- ========== Machine pistol ========== -->
-      <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/ThingDef[defName="Gun_MachinePistol"]/label</xpath>
-        <value>
-          <label>MAC-10</label>
-        </value>
-      </Operation>
-
       <Operation Class="PatchOperationSequence">
         <operations>
           <li Class="PatchOperationReplace">
@@ -105,11 +98,22 @@
       </Operation>
 
       <!-- ========== LMG ========== -->
-      <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/ThingDef[defName="Gun_LMG"]/label</xpath>
-        <value>
-          <label>Degtyarev DP</label>
-        </value>
+      <Operation Class="PatchOperationSequence">
+        <operations>
+          <li Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="Gun_LMG"]/label</xpath>
+            <value>
+              <label>Degtyarev DP</label>
+            </value>
+          </li>
+
+          <li Class="PatchOperationReplace" MayRequire="CETeam.CombatExtended">
+            <xpath>/Defs/ThingDef[defName="Gun_LMG"]/label</xpath>
+            <value>
+              <label>Bren Mk.IV</label>
+            </value>
+          </li>
+        </operations>
       </Operation>
 
       <!-- ========== Charge rifle ========== -->
