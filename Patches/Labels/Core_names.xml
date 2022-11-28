@@ -3,7 +3,6 @@
   <Operation Class="XmlExtensions.OptionalPatch">
     <modId>Harkon.GunNut.CORE</modId>
     <key>toggleCORENames</key>
-    <!--By default, apply the patch-->
     <defaultValue>true</defaultValue>
     <caseTrue>
       <!-- ========== Revolver ========== -->
@@ -123,6 +122,8 @@
           <label>R-15 charge rifle</label>
         </value>
       </Operation>
+
+      <!-- ========== GUN NUT NAMES ========== -->
 
       <!-- ========== Charged SCAR ========== -->
       <Operation Class="PatchOperationFindMod">
