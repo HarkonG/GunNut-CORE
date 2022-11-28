@@ -16,7 +16,7 @@
                         <li Class="PatchOperationReplace">
                             <xpath>/Defs/ThingDef[defName="VWE_Gun_ServiceRifle"]/label</xpath>
                             <value>
-                                <label>AK-47</label>
+                                <label>AKM</label>
                             </value>
                         </li>
 
@@ -51,7 +51,7 @@
                         <li Class="PatchOperationReplace">
                             <xpath>/Defs/ThingDef[defName="VWE_Gun_ChargeLMG"]/label</xpath>
                             <value>
-                                <label>L-20 charge LMG</label>
+                                <label>A-20 charge LMG</label>
                             </value>
                         </li>
 
