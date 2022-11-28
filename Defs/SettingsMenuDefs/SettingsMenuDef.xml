@@ -38,7 +38,7 @@
 
             <li Class="XmlExtensions.Setting.Checkbox">
                 <key>toggleCENames</key>
-                <label>Combat Extended (disabled until CE 1.4 release)</label>
+                <label>Combat Extended</label>
                 <defaultValue>true</defaultValue>
             </li>
 
@@ -131,7 +131,7 @@
             <li Class="XmlExtensions.Setting.Gap"/>
 
             <li Class="XmlExtensions.Setting.Text">
-                <text>WORK IN PROGRESS, settings for replacers will be added at a later date.</text>                
+                <text>WORK IN PROGRESS, settings for replacers will be added at a later date.</text>
             </li>
 
             <!-- ========== RESEARCH SETTINGS ========== -->
