@@ -33,6 +33,7 @@
 		<li>al9000.CEGunsButAK</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>imranfish.xmlextensions</li>
+		<li>CETeam.CombatExtendedArmory</li>
 	</loadAfter>
 	<modDependencies>
 		<li>
