@@ -17,11 +17,7 @@
                 <volumeRange>
                     <min>34.2941</min>
                     <max>40.2941</max>
-                </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
+                </volumeRange>                
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -42,11 +38,7 @@
                 <volumeRange>
                     <min>34.2941</min>
                     <max>40.2941</max>
-                </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
+                </volumeRange>                
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -67,11 +59,7 @@
                 <volumeRange>
                     <min>34.2941</min>
                     <max>40.2941</max>
-                </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
+                </volumeRange>               
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -92,11 +80,7 @@
                 <volumeRange>
                     <min>34.2941</min>
                     <max>40.2941</max>
-                </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
+                </volumeRange>                
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -117,11 +101,7 @@
                 <volumeRange>
                     <min>34.2941</min>
                     <max>40.2941</max>
-                </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
+                </volumeRange>                
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -142,11 +122,7 @@
                 <volumeRange>
                     <min>34.2941</min>
                     <max>40.2941</max>
-                </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
+                </volumeRange>                
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -167,11 +143,7 @@
                 <volumeRange>
                     <min>34.2941</min>
                     <max>40.2941</max>
-                </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
+                </volumeRange>                
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -192,11 +164,28 @@
                 <volumeRange>
                     <min>34.2941</min>
                     <max>40.2941</max>
-                </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
+                </volumeRange>                
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>HRK_Reload_23x75mmTube</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapons/HRK_Reload_23x75mmTube</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34.2941</min>
+                    <max>40.2941</max>
+                </volumeRange>                
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -217,11 +206,7 @@
                 <volumeRange>
                     <min>34.2941</min>
                     <max>40.2941</max>
-                </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
+                </volumeRange>               
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
