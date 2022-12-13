@@ -11,9 +11,9 @@
         </prerequisites>
         <techLevel>Industrial</techLevel>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <researchViewX>0.00</researchViewX>
-        <researchViewY>0.15</researchViewY>
-        <tab>HRK_ResearchTab_GunNut</tab>
+        <researchViewX>9</researchViewX>
+        <researchViewY>0.70</researchViewY>
+        <tab>HRK_ResearchTab_Gunsmithing</tab>
     </ResearchProjectDef>
 
     <!--<ResearchProjectDef>
@@ -28,7 +28,7 @@
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <researchViewX>1.00</researchViewX>
         <researchViewY>1.15</researchViewY>
-        <tab>HRK_ResearchTab_GunNut</tab>
+        <tab>HRK_ResearchTab_Gunsmithing</tab>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -43,7 +43,7 @@
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <researchViewX>2.00</researchViewX>
         <researchViewY>1.15</researchViewY>
-        <tab>HRK_ResearchTab_GunNut</tab>
+        <tab>HRK_ResearchTab_Gunsmithing</tab>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -58,7 +58,7 @@
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <researchViewX>3.00</researchViewX>
         <researchViewY>1.15</researchViewY>
-        <tab>HRK_ResearchTab_GunNut</tab>
+        <tab>HRK_ResearchTab_Gunsmithing</tab>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -73,7 +73,7 @@
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <researchViewX>1.00</researchViewX>
         <researchViewY>2.15</researchViewY>
-        <tab>HRK_ResearchTab_GunNut</tab>
+        <tab>HRK_ResearchTab_Gunsmithing</tab>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -88,7 +88,7 @@
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <researchViewX>2.00</researchViewX>
         <researchViewY>2.15</researchViewY>
-        <tab>HRK_ResearchTab_GunNut</tab>
+        <tab>HRK_ResearchTab_Gunsmithing</tab>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -103,7 +103,7 @@
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <researchViewX>1.00</researchViewX>
         <researchViewY>3.15</researchViewY>
-        <tab>HRK_ResearchTab_GunNut</tab>
+        <tab>HRK_ResearchTab_Gunsmithing</tab>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -118,7 +118,7 @@
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <researchViewX>2.00</researchViewX>
         <researchViewY>3.15</researchViewY>
-        <tab>HRK_ResearchTab_GunNut</tab>
+        <tab>HRK_ResearchTab_Gunsmithing</tab>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -133,7 +133,7 @@
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <researchViewX>1.00</researchViewX>
         <researchViewY>4.15</researchViewY>
-        <tab>HRK_ResearchTab_GunNut</tab>
+        <tab>HRK_ResearchTab_Gunsmithing</tab>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -148,7 +148,7 @@
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <researchViewX>2.00</researchViewX>
         <researchViewY>4.15</researchViewY>
-        <tab>HRK_ResearchTab_GunNut</tab>
+        <tab>HRK_ResearchTab_Gunsmithing</tab>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -163,7 +163,7 @@
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <researchViewX>3.00</researchViewX>
         <researchViewY>4.15</researchViewY>
-        <tab>HRK_ResearchTab_GunNut</tab>
+        <tab>HRK_ResearchTab_Gunsmithing</tab>
     </ResearchProjectDef>-->
 
 </Defs>

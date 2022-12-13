@@ -3,8 +3,8 @@
 <Defs>
 	
 	<ResearchTabDef>
-		<defName>HRK_ResearchTab_GunNut</defName>
-		<label>Gun Nut</label>
+		<defName>HRK_ResearchTab_Gunsmithing</defName>
+		<label>Gunsmithing</label>
 	</ResearchTabDef>
 
 </Defs>
