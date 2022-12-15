@@ -168,7 +168,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>Core/Shot/Shot_M16A41</clipPath>
+            <clipPath>Core/Shot/Shot_M16A4</clipPath>
           </li>
         </grains>
         <pitchRange>
@@ -217,29 +217,6 @@
           </li>
         </grains>
         <volumeRange>30~30</volumeRange>
-        <pitchRange>
-          <min>1</min>
-          <max>1</max>
-        </pitchRange>
-        <sustainLoop>False</sustainLoop>
-      </li>
-    </subSounds>
-  </SoundDef>
-
-  <!-- === R-15 Charge Rifle (Charge Rifle) === -->
-  <SoundDef>
-    <defName>Shot_R15Rifle</defName>
-    <context>MapOnly</context>
-    <eventNames />
-    <maxSimultaneous>1</maxSimultaneous>
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Core/Shot/Shot_ChargeRifle</clipPath>
-          </li>
-        </grains>
-        <volumeRange>40~40</volumeRange>
         <pitchRange>
           <min>1</min>
           <max>1</max>

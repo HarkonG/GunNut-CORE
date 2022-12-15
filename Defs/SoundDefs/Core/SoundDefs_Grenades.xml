@@ -13,7 +13,6 @@
             <clipPath>Core/Grenades/Grenade_PinOut</clipPath>
           </li>
         </grains>
-        <pitchRange>0.9576087~1.084783</pitchRange>
       </li>
     </subSounds>
   </SoundDef>
@@ -30,24 +29,6 @@
             <clipPath>Core/Grenades/Grenade_Throw</clipPath>
           </li>
         </grains>
-        <pitchRange>0.9576087~1.084783</pitchRange>
-      </li>
-    </subSounds>
-  </SoundDef>
-
-  <!-- === Frag Grenade === -->
-  <SoundDef>
-    <defName>FragGrenade_Explode</defName>
-    <context>MapOnly</context>
-    <eventNames />
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Core/Grenades/FragGrenade1</clipPath>
-          </li>
-        </grains>
-        <sustainLoop>False</sustainLoop>
       </li>
     </subSounds>
   </SoundDef>
