@@ -4,14 +4,14 @@
     <ResearchProjectDef>
         <defName>HRK_Research_GunNut</defName>
         <label>attachments and modifications</label>
-        <description>Modify the weapons you already know to make them more comfortable, light and precise.</description>
+        <description>Modify the weapons you already know to make them more comfortable, lighter and more precise.</description>
         <baseCost>1250</baseCost>
         <prerequisites>
             <li>PrecisionRifling</li>
         </prerequisites>
         <techLevel>Industrial</techLevel>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <researchViewX>9</researchViewX>
+        <researchViewX>6</researchViewX>
         <researchViewY>0.70</researchViewY>
         <tab>HRK_ResearchTab_Gunsmithing</tab>
     </ResearchProjectDef>
