@@ -11,7 +11,7 @@
         </prerequisites>
         <techLevel>Industrial</techLevel>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <researchViewX>6</researchViewX>
+        <researchViewX>0</researchViewX>
         <researchViewY>0.70</researchViewY>
         <tab>HRK_ResearchTab_Gunsmithing</tab>
     </ResearchProjectDef>
