@@ -154,7 +154,7 @@
       <!-- ========== Charged KS ========== -->
       <Operation Class="PatchOperationFindMod">
         <mods>
-          <li>[HRK] Gun Nut - Chapter #2</li>
+          <li>[HRK] Gun Nut - KS-23 Shotgun</li>
         </mods>
         <match Class="PatchOperationReplace">
           <xpath>/Defs/ThingDef[defName="HRK_KS23Charged"]/label</xpath>
