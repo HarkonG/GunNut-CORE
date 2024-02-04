@@ -5,7 +5,7 @@
   <SoundDef>
     <defName>Shot_M1911</defName>
     <context>MapOnly</context>
-    <eventNames />
+    <eventNames/>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
@@ -27,7 +27,7 @@
   <SoundDef>
     <defName>Shot_Redhawk</defName>
     <context>MapOnly</context>
-    <eventNames />
+    <eventNames/>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
@@ -50,7 +50,7 @@
   <SoundDef>
     <defName>Shot_MAC10</defName>
     <context>MapOnly</context>
-    <eventNames />
+    <eventNames/>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
@@ -72,7 +72,7 @@
   <SoundDef>
     <defName>Shot_UMP45</defName>
     <context>MapOnly</context>
-    <eventNames />
+    <eventNames/>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
@@ -94,7 +94,7 @@
   <SoundDef>
     <defName>Shot_Mossberg500</defName>
     <context>MapOnly</context>
-    <eventNames />
+    <eventNames/>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
@@ -116,7 +116,7 @@
   <SoundDef>
     <defName>Shot_Saiga12K</defName>
     <context>MapOnly</context>
-    <eventNames />
+    <eventNames/>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
@@ -139,7 +139,7 @@
   <SoundDef>
     <defName>Shot_LeeEnfield</defName>
     <context>MapOnly</context>
-    <eventNames />
+    <eventNames/>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
@@ -162,7 +162,7 @@
   <SoundDef>
     <defName>Shot_M16A4</defName>
     <context>MapOnly</context>
-    <eventNames />
+    <eventNames/>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
@@ -184,7 +184,7 @@
   <SoundDef>
     <defName>Shot_M24</defName>
     <context>MapOnly</context>
-    <eventNames />
+    <eventNames/>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
@@ -207,7 +207,7 @@
   <SoundDef>
     <defName>Shot_DegtyarevDP</defName>
     <context>MapOnly</context>
-    <eventNames />
+    <eventNames/>
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
