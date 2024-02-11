@@ -1,19 +1,38 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
 <Patch>
+
     <Operation Class="PatchOperationFindMod">
         <mods>
             <li>Vanilla Weapons Expanded</li>
         </mods>
         <match Class="PatchOperationSequence">
-            <operations>               
-                <li Class="PatchOperationReplace">
+            <operations>
+                <li Class="PatchOperationAdd">
                     <xpath>/Defs/ResearchProjectDef[defName="HRK_Research_GunNut"]/prerequisites</xpath>
                     <value>
-                        <prerequisites>
-                            <li>VWE_SpecializedFirearms</li>
-                            <li>VWE_DesignatedMarksmanRifle</li>
-                            <li>VWE_HeavyWeapons</li>
-                        </prerequisites>
+                        <li>VWE_SpecializedFirearms</li>
+                        <li>VWE_DesignatedMarksmanRifle</li>
+                        <li>VWE_HeavyWeapons</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/ResearchProjectDef[defName="HRK_Research_GunNut"]/prerequisites/li[text()="PrecisionRifling"]</xpath>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Weapons Expanded - Quickdraw</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="HRK_Research_GunNut"]/prerequisites</xpath>
+                    <value>
+                        <li>VWE_Quickdraw</li>
                     </value>
                 </li>
             </operations>
