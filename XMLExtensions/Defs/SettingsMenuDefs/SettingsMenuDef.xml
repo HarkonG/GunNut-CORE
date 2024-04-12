@@ -155,67 +155,7 @@
                 <key>GunNutResearchCost</key>
                 <label>Attachments and modifications cost</label>
                 <defaultValue>1250</defaultValue>
-            </li>
-
-            <!--<li Class="XmlExtensions.Setting.Textbox">
-                <key>HandgunsCost</key>
-                <label>Advanced handguns cost</label>
-                <defaultValue>500</defaultValue>
-            </li>
-
-            <li Class="XmlExtensions.Setting.Textbox">
-                <key>SMGsCost</key>
-                <label>Advanced SMGs cost</label>
-                <defaultValue>800</defaultValue>
-            </li>
-
-            <li Class="XmlExtensions.Setting.Textbox">
-                <key>ShotgunsCost</key>
-                <label>Advanced Shotguns cost</label>
-                <defaultValue>800</defaultValue>
-            </li>
-
-            <li Class="XmlExtensions.Setting.Textbox">
-                <key>DMRsCost</key>
-                <label>Advanced DMRs cost</label>
-                <defaultValue>800</defaultValue>
-            </li>
-
-            <li Class="XmlExtensions.Setting.Textbox">
-                <key>ARsCost</key>
-                <label>Advanced ARs cost</label>
-                <defaultValue>1200</defaultValue>
-            </li>
-
-            <li Class="XmlExtensions.Setting.Textbox">
-                <key>SRsCost</key>
-                <label>Advanced SRs cost</label>
-                <defaultValue>1000</defaultValue>
-            </li>
-
-            <li Class="XmlExtensions.Setting.Textbox">
-                <key>AMRsCost</key>
-                <label>Advanced AMRs cost</label>
-                <defaultValue>1500</defaultValue>
-            </li>
-
-            <li Class="XmlExtensions.Setting.Textbox">
-                <key>LMGsCost</key>
-                <label>Advanced LMGs cost</label>
-                <defaultValue>1200</defaultValue>
-            </li>
-
-            <li Class="XmlExtensions.Setting.Textbox">
-                <key>HMGsCost</key>
-                <label>Advanced HMGs cost</label>
-                <defaultValue>1500</defaultValue>
-            </li>
-
-            <li Class="XmlExtensions.Setting.Textbox">
-                <key>LaunchersCost</key>
-                <label>Advanced Launchers cost</label>
-                <defaultValue>1500</defaultValue>
-            </li>-->
+            </li>        
 
             <!-- ========== MISC TWEAKS ========== -->
 
